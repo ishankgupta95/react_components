@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Dropdown from "./components/Dropdown";
+import Dropdown from "../components/Dropdown";
 
-function App() {
+function DropdownPage() {
 
     const [selection, setSelection] = useState(null)
 
@@ -29,4 +29,4 @@ function App() {
     );
 }
 
-export default App;
+export default DropdownPage;
