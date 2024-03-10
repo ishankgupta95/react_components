@@ -13,7 +13,7 @@ function Dropdown({ options, value, onChange }) {
         }
         
         const handler = (event) => {
-            if(!divEl.current.contains(event.target)) {
+            if(!divEl.current?.contains(event.target)) {
                 setIsOpen(false)
             }
         }
